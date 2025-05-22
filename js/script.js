@@ -62,7 +62,7 @@ const enviarMensajeAPI = async (mensaje) => {
   // FUNCIÓN PARA ENVIAR LA PALABRA CLAVE A LA URL DE IOT
   const guardarPalabraClaveIot = async (palabraClave) => {
     try {
-      await fetch("3.219.35.34/iot-api-php/controllers/AddIotDevice.php", {
+      await fetch("44.211.50.100/iot-api-php/controllers/AddIotDevice.php", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
